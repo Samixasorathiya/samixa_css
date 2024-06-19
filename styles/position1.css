@@ -1,0 +1,24 @@
+.a{
+    background-color: pink;
+}
+.b{
+    background-color: rgb(160, 237, 37);
+}
+.c{
+    background-color: rgb(226, 72, 118);
+}
+.d{
+    background-color: rgb(50, 145, 204);
+}
+.pos{
+    width: 80%;
+    height: 20%;
+    text-align: center;
+    font-size: 40px;
+}
+body{
+    margin: 0%;
+    height: 200cm;
+    
+    padding: 0;
+}

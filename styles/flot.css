@@ -1,0 +1,28 @@
+.horse{
+    float: left;
+    margin-right: 15px;
+}
+.horse2{
+    float: right;
+}
+
+div{
+    border: 2px solid black;
+    background-color: pink;
+   height: 100px;
+   width: 100px;
+}
+body{
+    margin: 0%;
+    padding: 0;
+}
+#one{
+    clear: left;
+    margin-top: 40px;
+    clear:both;
+}
+.sam{
+    border: 2px solid green;
+    width: 500px;
+    margin: auto;
+}

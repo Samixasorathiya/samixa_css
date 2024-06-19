@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day2 demo</title>
+    <link rel="stylesheet" href="styles/day2.css">
+    <link rel="icon" type="image/x-icon" href="image/horse.jpg">
+</head>
+<body>
+    <h1 style="text-align: center;">day 2</h1>
+   <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium eligendi veniam nobis. Itaque harum iure quia odio tempore autem. 
+    Quas facilis enim quibusdam. Fuga vel tempora, libero rem dolorum sapiente.</blockquote>
+   
+    <table style="width:100%">
+        <caption style="color: black;">mothly shedual</caption><br>
+        <colgroup>
+            <col span="1" style="background-color: #D6EEEE">
+          </colgroup>
+        <tr>
+            <th style="width: 50%;">day1</th>
+            <th>day2</th>
+            <th>day3</th>
+        </tr>
+        <tr>
+            <td>java</td>
+            <td>python</td>
+            <td>react</td>
+        </tr>
+        <tr>
+            <td>java</td>
+            <td>python</td>
+            <td>react</td>
+        </tr>
+    </table>
+    <br>
+    <h3>description list</h3>  
+    <dl>
+        <dt>java</dt>
+        <dd>java is programming language</dd>
+        <dt>pythhon</dt>
+    </dl>
+    <a href="image/horse.jpg"><button>image button</button></a>
+
+    <div class="java">
+        <h2>java</h2>
+        <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptatum aperiam suscipit, ipsum atque aliquam temporibus ratione architecto unde beatae incidunt sint eveniet, quo ducimus tempora deserunt pariatur exercitationem minus.</p>
+    
+    </div>
+    <hr>
+    <h2 id="myid">Use of The class Attribute in JavaScript</h2>
+<h3>Click the button to hide all elements with class name "city":</h3>
+
+<button onclick="myFunction()">Hide elements</button>
+
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+<div id="imgid">
+<img src="image/bulbof.jpg" id="bulb" height="100" width="100"><br>
+<button onclick="light(0)">on</button>
+<button onclick="light(1)">off</button>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+ var array=[10,2,3];
+ for(var i=0; i<array.length; i++)
+ {
+    console.log(array[i]);
+ }
+
+ function light(sn)
+ {
+    var pic;
+    if(sn==0)
+    {
+        pic="./image/bulbon.jfif"
+    }
+    else{
+        pic="./image/bulbof.jpg"
+    }
+    document.getElementById("bulb").src=pic;
+ }
+
+</script>
+</body>
+</html>

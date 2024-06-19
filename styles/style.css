@@ -1,0 +1,26 @@
+
+html{
+    background-color:rgb(217, 78, 131);
+}
+h1{
+    margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 2px 1px black;
+}
+p,
+li{
+    font-size: 16px;
+    line-height: 2;
+}
+body{
+    width: 1000px;
+    background-color: rgb(249, 225, 245);
+    margin:auto;
+    border: solid 5px;
+    padding:  20px 20px 20px 20px;
+}
+img{
+    display: block;
+    margin: auto;
+}
